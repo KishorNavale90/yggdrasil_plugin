@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> {
 class TestPage extends StatelessWidget {
   String _platformVersion = 'Unknown';
   YggdrasilPlugin plugin = YggdrasilPlugin();
-  BuildContext _context;
+  late BuildContext _context;
 
   TestPage() {
     plugin.setOnReportIp(reportIp);
@@ -44,17 +44,17 @@ class TestPage extends StatelessWidget {
           child: new Row (
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-            RaisedButton(
-              color: Colors.redAccent,
-              textColor: Colors.white,
+            ElevatedButton(
+              /*color: Colors.redAccent,
+              textColor: Colors.white,*/
               onPressed: () {
                 startVPN(context);
               },
               child: Text("Start"),
             ),
-            RaisedButton(
-              color: Colors.redAccent,
-              textColor: Colors.white,
+              ElevatedButton(
+              /*color: Colors.redAccent,
+              textColor: Colors.white,*/
               onPressed: () {
                 stopVPN(context);
               },
@@ -72,7 +72,7 @@ class TestPage extends StatelessWidget {
         title: const Text("Your IP"),
         content: new Text(message),
         actions: [
-          new FlatButton(
+          TextButton(
             child: const Text("Ok"),
             onPressed: () {
               Navigator.pop(_context);

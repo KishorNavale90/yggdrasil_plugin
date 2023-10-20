@@ -2,7 +2,7 @@ group 'org.threefold.yggdrasil_plugin'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.3.50'
+    ext.kotlin_version = '1.5.20'
     repositories {
         google()
         jcenter()
@@ -48,5 +48,5 @@ dependencies {
     implementation 'androidx.core:core-ktx:1.5.0'
     implementation 'androidx.appcompat:appcompat:1.3.0'
     implementation "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0"
-    compile project(':yggdrasil_plugin')
+    implementation project(':yggdrasil_plugin')
 }

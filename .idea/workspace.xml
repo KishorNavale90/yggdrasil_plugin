@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6a644f8d-322d-4963-a2c6-7cdf22c29e45" name="Default Changelist" comment="sdk version update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example3/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example3/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example3/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example3/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example3/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example3/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example3/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example3/test/widget_test.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -37,10 +37,10 @@ dependencies:
   cupertino_icons: ^1.0.2
 
   yggdrasil_plugin :
-    path: /Users/kishornavale/test_workspace/planetary_network_flutter
-    #git:
-      #url: https://github.com/KishorNavale90/yggdrasil_plugin.git
-      #ref: main
+    #path: /Users/kishornavale/test_workspace/planetary_network_flutter
+    git:
+      url: https://github.com/KishorNavale90/yggdrasil_plugin.git
+      ref: main
 
 
 dev_dependencies:
